@@ -51,7 +51,9 @@ labs(x = "DEGREE", y = "WORDSUM") +
 theme(plot.title = element_text(hjust = 0.5)) +
 ggtitle("Fancy Box Plot")
 ```
-
+  
+The graduate high school is the highest out of the 5 degrees. The LT High School would not overlap with Junior College or graduate with that showing that it is very likely to be different schooling criteria. The graduate school does not overlap with High school which shows that it is also different. Graduate high school seems to be the highest out of the 5 schools with LT High School being the lowest.
+  
 
 ### Numerical Descriptive Results
 
