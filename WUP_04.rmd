@@ -80,6 +80,20 @@ summary.aov(model1)
   
 There is a significant difference between the schooling of all 5 degrees.
 
+  
+```{r}
+# Perform one-way ANOVA
+model <- aov(WORDSUM ~ DEGREE, data = thedata)
+
+# Conduct post-hoc test (Tukey's HSD)
+posthoc <- TukeyHSD(model)
+
+# Print the results
+print(posthoc)
+```
+  
+This chart shows that the LT high school and the LT high school graduates are the two degrees in common and that are different than the other degrees. High school and graduate are also different, so 4 of these schools have their differences with data. 
+
 
 # Discussion and Conclusion
 
